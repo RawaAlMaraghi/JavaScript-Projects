@@ -517,3 +517,149 @@ button:hover, .form-container .btn:hover {
         margin-top: 0;
     }
 }
+
+/* Dark Red Themed Color Updates */
+
+/* Body background and text */
+body {
+    background-color: #1a000d; /* Deep dark red background */
+    color: #f2f2f2; /* Light text for contrast */
+}
+
+/* Headings */
+h1 {
+    color: #ff4d4d; /* Bright red heading text */
+}
+
+/* Navbar */
+.Navbar {
+    background-color: #330000; /* Dark red navbar */
+}
+
+.Navbar a {
+    color: #f2f2f2;
+}
+
+.Navbar a.active {
+    background-color: #800000; /* Deep red active tab */
+}
+
+.Navbar a:hover {
+    background-color: #ffcccc; /* Light red/white hover */
+    color: #330000;
+}
+
+/* Footer */
+footer {
+    background-color: #330000; /* Matches navbar */
+    color: #fff;
+}
+
+/* Video text overlay */
+.Video_Text {
+    background: rgba(51, 0, 0, 0.6); /* Dark red transparent overlay */
+}
+
+/* Slideshow */
+#Slideshow_Background {
+    background: rgba(102, 0, 0, 0.5); /* Dark red tint */
+}
+
+.text {
+    background-color: rgba(51, 0, 0, 0.75); /* Dark red overlay */
+}
+
+/* Slideshow arrows */
+.Previous, .Next {
+    color: #ff9999; /* Light red arrows */
+}
+
+.Previous:hover, .Next:hover {
+    background-color: rgba(51, 0, 0, 0.8); /* Darker red hover */
+    color: #fff;
+}
+
+/* Slideshow dots */
+.dot {
+    background-color: #ffcccc; /* Pale red */
+}
+.active, .dot:hover {
+    background-color: #800000; /* Deep red */
+}
+
+/* Columns */
+.Column_1 {
+    background-color: #330000; /* Dark red */
+    color: #fff;
+}
+
+.Column_2 {
+    background-color: #660000; /* Slightly lighter dark red */
+}
+
+/* Contact button */
+.Pop_Up_Button {
+    background-color: #990000; /* Dark red */
+    color: #fff;
+    border: solid #ffcccc;
+}
+
+.Pop_Up_Button:hover {
+    background-color: #b30000; /* Brighter red */
+    border-color: #fff;
+}
+
+/* Contact Form */
+.form-container {
+    background-color: #330000; 
+    color: #fff;
+}
+
+.form-container input[type=text] {
+    background: #800000; 
+    color: #fff;
+}
+
+/* Form buttons */
+.form-container .btn {
+    background-color: #990000;
+    color: #fff;
+    border-color: #ffcccc;
+}
+
+.form-container .btn:hover {
+    background-color: #b30000;
+    border-color: #fff;
+}
+
+.form-container .cancel {
+    background-color: #4d0000;
+    color: white;
+    border-color: #ff4d4d;
+}
+
+.form-container .cancel:hover {
+    background-color: darkred;
+    border-color: #fff;
+}
+
+/* Links */
+a {
+    color: #ff4d4d;
+}
+
+/* Hover for links inside center, quotes, etc. */
+.center:hover {
+    color: #ff9999;
+}
+
+p:hover {
+    color: #ffe6e6;
+}
+
+/* Adjust buttons globally */
+button:hover, .form-container .btn:hover {
+    background-color: #4d0000;
+    border-color: #fff;
+    color: #fff;
+}
